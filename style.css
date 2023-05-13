@@ -1,0 +1,185 @@
+@font-face {
+	font-family: 'vazir';
+	src: url('fonts/Vazirmatn-Medium.woff2') format('woff2'),
+	
+  }
+  
+  h1{
+	font-family: 'yulisa Script', sans-serif !important;
+	font-size: 90px !important;
+                                                                                                
+                                                
+  }
+  * {
+	font-family: vazir !important;
+	direction: rtl !important;
+	text-align: right;
+  }
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	
+	text-align: center;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body{
+    background-color: #f0f0f0;
+	display: grid;
+	
+}
+a:hover{
+	cursor: pointer;
+
+}
+
+
+#main{
+	margin: auto;
+	margin-top: 100px;
+	background-color: white;
+	width: 500px;
+	height: auto;
+	box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+	border-radius: 20px;
+}
+
+
+#maincontent{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	align-items: center;
+	justify-content: center;
+}
+#task{
+	
+	width: 400px !important;
+	display: inline-block;
+}
+#mybtn{
+	margin-top: 1px;
+	display: inline-block;
+}
+
+#main h1{
+	margin-top: 20px;
+
+	
+}
+#main p{
+	font-size: 10px;	
+}
+
+
+li
+{
+	padding-top: 13px;
+	margin-top: 20px;
+	background-color: white;
+	width: 500px;
+	height: 50px;
+	box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+	border-radius: 10px;
+	transition: all 0.75s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5 ease;
+		
+}
+
+
+.uldiv 
+{
+	
+	display: grid;
+	justify-content: center;
+	margin-right: 30px;
+}
+
+.done {
+	background-color: rgb(92, 243, 92);
+	color: white;
+	
+}
+
+.delete {
+	
+	display: none;
+}
+@media only screen and (max-width: 768px) {
+	#main {
+		width: 20rem;
+		
+	}
+	#task{
+		width: 15rem !important;
+	}
+	li{
+		width: 20rem;
+		margin-right: 15px;
+
+	}
+	.uldiv{
+		width: 20rem;
+	}
+	.mybtns{
+		position: relative;
+		float: left;
+		
+		width: 20px;
+		height: 20px;
+		left: 20px;
+		top: -35px;
+	  }
+
+  }
+
+  .mybtns{
+	overflow: hidden;
+	position: relative;
+	float: left;
+	display: block;
+	width: 20px;
+	height: 20px;
+	left: 20px;
+	top: -36px;
+  }
